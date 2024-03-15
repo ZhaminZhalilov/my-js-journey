@@ -1,4 +1,4 @@
- const GOODS = [{
+const GOODS = [{
     id: 1,
     name: "Уроки по HTML",
     imgSrc: "goods/html.png",
@@ -12,4 +12,5 @@
     name: "Уроки по JS",
 	price: 260,
     imgSrc: "goods/js.png",
+    
  }];
