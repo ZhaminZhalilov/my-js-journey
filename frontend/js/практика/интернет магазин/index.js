@@ -169,7 +169,7 @@ function renderGoods() {
 	const div = document.createElement('div');
 	div.dataset.activeTabContent = 'true';
 	div.className = 'product-items';
-		
+	
 	
 	for (let i = 0; i < GOODS.length; i++) {
 		const product = createProduct(GOODS[i]);
@@ -188,6 +188,7 @@ function renderGoods() {
 			<h3>${product.name}</h3>
 			${price}
 			</div>
+			
 	    `;
 		if (product.price !==null) {
 			clikHandler = addInCartHandler(product);
