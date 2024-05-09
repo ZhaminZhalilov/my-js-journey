@@ -34,7 +34,11 @@ function clickHandler(event){
     
 
 }
-
+function getActiveTab(){
+    return document.querySelector(
+        `button[data-tab-id="${activeTabId}"]`
+        );
+}
 function addInCartHandler(product) {
 	return () =>{
 		let hasProduct = false;
@@ -133,11 +137,7 @@ function createProduct(product){
 	};
 }
 
-function getActiveTab(){
-    return document.querySelector(
-        `button[data-tab-id="${activeTabId}"]`
-        );
-}
+
 
 function renderTubContentById(tabId){
     const tabsContainer = document.querySelector('.tabs');
@@ -244,8 +244,8 @@ function renderCart() {
 	
 	}
 	return container;
+	
 }
-
 function updateCartItem(id, count) {
 	const cartItem = document.querySelector(`[data-element-id="${id}"]`);
 
@@ -259,3 +259,4 @@ function updateCartItem(id, count) {
 	
 	
 }
+
