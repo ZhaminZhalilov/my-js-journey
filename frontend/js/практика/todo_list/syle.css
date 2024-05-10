@@ -35,4 +35,31 @@ body {
 .Tasks{
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+}
+.task{
+    background: white;
+    width: 230px;
+    height: 34px;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+.garbage{
+    border: 0px;
+    border-radius: 5px;
+    background: red;
+    height: 34px;
+    margin-top: 20px;
+    
 }
