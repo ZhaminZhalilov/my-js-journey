@@ -47,19 +47,27 @@ body {
     background: white;
     width: 230px;
     height: 34px;
-    border: 0px solid white;
-    border-radius: 5px;
-    margin-right: 70px;
+    border: 0px ;
+
+    
     margin-top: 20px;
+    margin-left:5px;
     text-align: center;
     
     
 }
 .garbage{
     border: 0px;
-    border-radius: 5px;
+    border-radius:5px ;
     background: red;
     height: 34px;
+    width: 65px;
     margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
     
+}
+.icon{
+    margin-top: 2px;
+    width: 30px;
 }
