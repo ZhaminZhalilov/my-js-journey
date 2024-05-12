@@ -5,6 +5,7 @@ button.addEventListener('click',submitButtonClicked);
 
 const buttonDel = document.querySelectorAll('.garbage');
 buttonDel.addEventListener('click',deleteButtonClicked);
+
 function submitButtonClicked(){
     const inputValue = document.querySelector('.textField');
     taskArrays.push({value:inputValue.value,id:taskArrays.length});
