@@ -45,18 +45,20 @@ body {
 }
 .task{
     background: white;
-    width: 230px;
-    height: 34px;
-    border: 0px ;
-
-    
+    width: 210px;
+    height: 14px;
+    border-radius:5px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px ;
     margin-top: 20px;
     margin-left:5px;
-    text-align: center;
+    
+
     
     
 }
-.garbage{
+.deletButton{
     border: 0px;
     border-radius:5px ;
     background: red;
@@ -65,6 +67,7 @@ body {
     margin-top: 20px;
     margin-left: 10px;
     text-align: center;
+
     
 }
 .icon{
