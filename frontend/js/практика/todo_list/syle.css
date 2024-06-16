@@ -73,4 +73,5 @@ body {
 .icon{
     margin-top: 2px;
     width: 30px;
+    pointer-events: none;
 }
